@@ -2,7 +2,7 @@
 source code for 64-bit x86 operating system kernel
 
 # Printing using C
-![SEECS](SEECS.png)
+![SEECS](SEECS.PNG)
 
 ## Prerequisites
 
