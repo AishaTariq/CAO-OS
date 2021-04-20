@@ -1,18 +1,18 @@
 # CAO-OS
 source code for 64-bit x86 operating system kernel
 
-# Printing using C
+# Sample Print Output
 ![SEECS](SEECS.PNG)
 
 ## Prerequisites
 
  - A text editor such as [VS Code](https://code.visualstudio.com/).
- - [Docker](https://www.docker.com/) for creating our build-environment.
- - [Qemu](https://www.qemu.org/) for emulating our operating system.
+ - [Docker](https://www.docker.com/) for creating the build-environment.
+ - [Qemu](https://www.qemu.org/) for emulating the operating system.
 
 ## Setup
 
-Build an image for our build-environment:
+Build an image for the build-environment:
  - `docker build buildenv -t myos-buildenv`
 
 ## Build
@@ -29,7 +29,7 @@ To leave the build environment, enter `exit`.
 
 ## Emulate
 
-You can emulate your operating system using [Qemu](https://www.qemu.org/): (Don't forget to add qemu to your path!)
+Emulate the operating system using [Qemu](https://www.qemu.org/): (Don't forget to add qemu to your path!)
 
  - `qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso`
 
